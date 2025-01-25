@@ -1,0 +1,13 @@
+**This file provides references to all external sources used.**
+
+**General**
+Privacy policy and terms of service generated from chatgpt.
+General dynamic styling courtesy of Bootstrap CSS framework: https://getbootstrap.com/
+
+**Images**
+community-cleanup-event.jpg: https://www.freepik.com/free-photo/people-doing-community-service-by-collecting-trash-nature_18771492.htm#fromView=keyword&page=1&position=3&uuid=4a5c0c53-9000-48d0-b45b-fddef6ba17ee&new_detail=true&query=Volunteer+Cleaning
+hackathon-event.jpg: https://www.vecteezy.com/photo/12533377-computer-technology-students
+charity-run-event.jpg: https://www.vecteezy.com/photo/35473559-ai-generated-a-runner-crossing-the-finish-line-at-a-race-with-a-crowd-cheering-in-the-background
+
+
+
