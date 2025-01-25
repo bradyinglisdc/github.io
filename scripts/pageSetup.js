@@ -75,7 +75,7 @@ export class PageSetup {
 
         // Use fetch to grab opportunities json - changed for pages directory
         /*const response = await fetch("../site-data/opportunities.json");*/
-        const response = await fetch("https://github.com/bradyinglisdc/github.io/blob/master/site-data/opportunities.json");
+        const response = await fetch("https://raw.githubusercontent.com/bradyinglisdc/github.io/master/site-data/opportunities.json");
 
         // Log an error and return if json couldn't be retrieved.
         if (!response.ok) {
