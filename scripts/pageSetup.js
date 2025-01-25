@@ -73,8 +73,9 @@ export class PageSetup {
         document.getElementById("closeSignUpFormButton").addEventListener("click", PageSetup.resetOpportunityForm);
         document.getElementById("exitSignUpFormButton").addEventListener("click", PageSetup.resetOpportunityForm);
 
-        // Use fetch to grab opportunities json
-        const response = await fetch("../site-data/opportunities.json");
+        // Use fetch to grab opportunities json - changed for pages directory
+        /*const response = await fetch("../site-data/opportunities.json");*/
+        const response = await fetch("https://github.com/bradyinglisdc/github.io/blob/master/site-data/opportunities.json");
 
         // Log an error and return if json couldn't be retrieved.
         if (!response.ok) {
