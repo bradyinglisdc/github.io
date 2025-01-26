@@ -130,15 +130,6 @@ export class PageSetup {
                     window.location.href="./index.html";
                 },5000);
             }
-        });        sendButton.addEventListener("click", function(){
-            event.preventDefault();
-
-            if (contactForm.checkValidity()) {
-                alert("Thank you!");
-                setTimeout(function(){
-                    window.location.href="./index.html";
-                },5000);
-            }
             else {
                 contactForm.classList.add("was-validated");
             }
