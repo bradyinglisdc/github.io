@@ -186,5 +186,4 @@ export class PageSetup {
         // Append the new opportunity.
         document.getElementById("opportunityCards").appendChild(opportunityCard);
     }
-
 }

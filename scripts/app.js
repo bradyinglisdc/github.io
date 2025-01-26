@@ -16,7 +16,7 @@ import {PageSetup} from "./pageSetup.js";
 (function(){
 
     // On window load, a given page will be dynamically initialized
-    window.addEventListener('load', start)
+    window.addEventListener('DOMContentLoaded', start)
 })()
 
 /**
@@ -44,3 +44,4 @@ async function start(){
             PageSetup.setupDonate();
     }
 }
+
