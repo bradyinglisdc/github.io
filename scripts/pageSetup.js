@@ -119,12 +119,29 @@ export class PageSetup {
      */
     static setupContacts() {
         let sendButton = document.getElementById("sendButton")
+        let contactForm = document.getElementById("contactForm");
+
         sendButton.addEventListener("click", function(){
             event.preventDefault();
-            alert("Thank you!");
-            setTimeout(function(){
-                window.location.href="./index.html";
-            },5000);
+
+            if (contactForm.checkValidity()) {
+                alert("Thank you!");
+                setTimeout(function(){
+                    window.location.href="./index.html";
+                },5000);
+            }
+        });        sendButton.addEventListener("click", function(){
+            event.preventDefault();
+
+            if (contactForm.checkValidity()) {
+                alert("Thank you!");
+                setTimeout(function(){
+                    window.location.href="./index.html";
+                },5000);
+            }
+            else {
+                contactForm.classList.add("was-validated");
+            }
         });
     }
 

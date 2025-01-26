@@ -14,7 +14,6 @@ import {PageSetup} from "./pageSetup.js";
  * IIFE: Called as soon as defined in run time.
  */
 (function(){
-
     // On window load, a given page will be dynamically initialized
     window.addEventListener('DOMContentLoaded', start)
 })()
