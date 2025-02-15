@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33bc2535-0b57-4141-9213-b5fe5a7eb7c0" name="Changes" comment="ICE 2 bootstrap added">
-      <change beforePath="$PROJECT_DIR$/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+    <list default="true" id="33bc2535-0b57-4141-9213-b5fe5a7eb7c0" name="Changes" comment="ICE 2 bootstrap added - file structure fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739612033445</updated>
-      <workItem from="1739612034583" duration="628000" />
+      <workItem from="1739612034583" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="ICE 2">
       <option name="closed" value="true" />
@@ -91,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739612350928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ICE 2 bootstrap added - file structure fixed">
+      <option name="closed" value="true" />
+      <created>1739612715381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739612715381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ICE 2" />
     <MESSAGE value="ICE 2 bootstrap added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ICE 2 bootstrap added" />
+    <MESSAGE value="ICE 2 bootstrap added - file structure fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ICE 2 bootstrap added - file structure fixed" />
   </component>
 </project>

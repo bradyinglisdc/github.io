@@ -481,7 +481,7 @@
 
             // Compare user against all users, search for match
             try {
-                const response = await fetch("../Data/users.json");
+                const response = await fetch("../data/users.json");
                 if (!response.ok) {
                     throw new Error(`[ERROR] HTTP error! Status: ${response.status}`)
                 }
