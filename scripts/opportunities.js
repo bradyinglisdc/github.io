@@ -6,15 +6,6 @@
 */
 
 /**
- * IIFE for structure.
- */
-(function() {
-
-    // Wait until all async functions finish
-    window.addEventListener("load", displayOpportunities);
-})()
-
-/**
  * Pulls opportunities from local storage and displays them on screen.
  */
 function displayOpportunities() {

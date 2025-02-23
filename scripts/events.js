@@ -6,13 +6,6 @@
 */
 
 /**
- * IIFE for structure.
- */
-(function() {
-    window.addEventListener("load", displayEvents)
-})()
-
-/**
  * Pulls events from local storage and displays them on screen.
  */
 function displayEvents() {

@@ -8,19 +8,11 @@
 // API endpoint with query for community/local news
 const localNewsURL = "https://newsapi.org/v2/everything?q=Canada+Ontario+Oshawa&" +
                             "apiKey=54207d18dd0b4df7b74e149fbf11de38";
-/**
- * IIFE for structure.
- */
-(async function () {
-
-    // Initialize - grab all community news
-    window.addEventListener("DOMContentLoaded", initialize);
-})()
 
 /**
  * Grabs and displays local news.
  */
-async function initialize() {
+async function initializeNews() {
 
     // Ensure results are updated based on query
     document.getElementById("newsQuery").addEventListener("change", updateResults);

@@ -98,10 +98,12 @@ export class PageSetup {
         if (document.title === "Opportunities") {
             searchInput.placeholder = "Search opportunities...";
             btnSearch.addEventListener("click", sortOpportunities);
+            displayOpportunities();
         }
         else {
             searchInput.placeholder = "Search events...";
             btnSearch.addEventListener("click", sortEvents);
+            displayEvents();
         }
 
         // Make search area visible
@@ -160,6 +162,9 @@ export class PageSetup {
 
         // Add array to session storage
         sessionStorage.setItem("communityNews", JSON.stringify(communityNews));
+
+        // Initialize and display
+        await initializeNews();
     }
 
     /**
