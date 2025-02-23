@@ -8,9 +8,9 @@
     <title>Login</title>
 
     <!-- CSS Section -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="content/app.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 </head>
 <body>
 
@@ -29,12 +29,10 @@
                 <form id="loginForm" novalidate>
 
                     <div class="form-group mb-2">
-                        <div class="input-group">
-                          <span class="input-group-addon">
-                            <i class="fa fa-user">
-                            </i>
+                        <div class="input-group mb">
+                          <span class="input-group-addon mb">
                           </span>
-                            <input type="text" class="form-control" id="userName" name="userName"  required
+                            <input type="text" class="form-control" id="username" name="username"  required
                                    value="" placeholder="Enter your username">
                         </div>
 
@@ -43,8 +41,6 @@
                     <div class="form-group mb-2">
                         <div class="input-group">
                           <span class="input-group-addon">
-                            <i class="fa fa-lock">
-                            </i>
                           </span>
                             <input type="password" class="form-control" id="password" name="password"  required
                                    value="" placeholder="Enter your password">
@@ -56,20 +52,26 @@
                         <button id="cancelButton" type="button" class="btn btn-warning btn-lg"><i class="fas fa-undo"></i> Cancel</button>
                     </div>
                 </form>
-
-            </div>
-            <p class="text-center text-muted small">
-                Don't have an account?
-                <a href="register.html">Register Here!</a>
-            </p>
-        </div>
     </div>
+        <!-- Scroll to Top button -->
+    <button id="btnScrollToTop" class="btn-scroll-to-top">
+        Scroll to Top
+    </button>
 </main>
 
+<footer class="sticky-footer">
+    <div class="container text-center">
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy </a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+        </nav>
+        <p>&copy; 2025 INFT2202. All rights reserved.</p>
+    </div>
+</footer>
+
 <!-- Scripting Section -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="scripts/namespace.js"></script>
-<script src="scripts/contact.js"></script>
-<script src="scripts/app.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="scripts/app.js"></script>
+<script src="scripts/opportunity.js"></script>
 </body>
 </html>
