@@ -135,6 +135,10 @@ export class PageSetup {
      */
     static async setupNews() {
 
+        // Indicate load
+        const resultsContainer = document.getElementById("newsResults");
+        resultsContainer.innerHTML += `<h4 class="h-100 d-flex justify-content-center align-items-center" id="statusDisclaimer">Pulling local news, this may take a few seconds...</h4>`;
+
         let data;
         try {
             const response = await fetch(localNewsURL);
@@ -143,6 +147,7 @@ export class PageSetup {
         }
         catch (error) {
             console.log("Error fetching local news: " + error);
+            document.getElementById("statusDisclaimer").innerText = "Could not fetch local news.";
         }
 
         // Create JSON array
@@ -151,9 +156,9 @@ export class PageSetup {
         }
 
         // Add necessary data for each article into the array
-        for (const article of data.articles) {
+        for (const article of data.data) {
             communityNews.articles.push({
-                org: article.source.name.split(".")[0],
+                org: article.source.split(".")[0],
                 name: article.title,
                 description: article.description,
                 url: article.url
@@ -163,7 +168,7 @@ export class PageSetup {
         // Add array to session storage
         sessionStorage.setItem("communityNews", JSON.stringify(communityNews));
 
-        // Initialize and display
+        // Initialize and display news
         await initializeNews();
     }
 

@@ -6,8 +6,11 @@
 */
 
 // API endpoint with query for community/local news
-const localNewsURL = "https://newsapi.org/v2/everything?q=Canada+Ontario+Oshawa&" +
-                            "apiKey=54207d18dd0b4df7b74e149fbf11de38";
+const localNewsURL = "https://api.thenewsapi.com/v1/news/all?" +
+    "api_token=BtABsc2NcN1zHvbzuMBuuYIgtgA7Nm8yZ9Y20u1s&" +
+    "search=Canada%20Ontario%20Oshawa&" +
+    "language=en&" +
+    "limit=50";
 
 /**
  * Grabs and displays local news.

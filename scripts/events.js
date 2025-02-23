@@ -5,6 +5,7 @@
 * Date of Completion: Feb 23, 2025
 */
 
+
 /**
  * Pulls events from local storage and displays them on screen.
  */
