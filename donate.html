@@ -1,0 +1,79 @@
+<!--
+* Authors: Brady Inglis, Nick Coffin
+* Brady Inglis Student ID: 100926284
+* Nick Coffin Student ID: 100555045
+ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donate</title>
+
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="content/app.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body>
+
+<header>
+
+</header>
+
+<main class="container">
+    <div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+        <h1>Support the cause</h1>
+    </div>
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="generic-message-container">
+            <p >
+                To donate and support the operation of Volunteer Connect, please fill out the form below. Our
+                automated system will forward to you email address instructions on how to donate.
+            </p>
+        </div>
+        <form class="col-lg-6 col-md-10 col-sm-12 mb-4">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Full Name</span>
+                <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full Name" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Email Address</span>
+                <input id="emailAddress" name="emailAddress" type="email" class="form-control" aria-describedby="Email Address" aria-label="Email Address" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Donation Amount</span>
+                <input id="subject" name="subject" type="text" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number" required>
+            </div>
+
+
+            <button id="sendButton" name="sendButton" type="submit" class="btn btn-primary">Submit</button>
+            <button id="cancelButton" name="cancelButton" type="reset" class="btn btn-warning">Cancel</button>
+        </form>
+    </div>
+    <!-- Scroll to Top button -->
+    <button id="btnScrollToTop" class="btn-scroll-to-top">
+        Scroll to Top
+    </button>
+</main>
+<footer class="sticky-footer">
+    <div class="container text-center">
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy </a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+        </nav>
+        <p>&copy; 2025 INFT2202. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Scripting Section -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="scripts/app.js"></script>
+</body>
+</html>

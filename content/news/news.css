@@ -1,0 +1,57 @@
+/*
+* Authors: Brady Inglis, Nick Coffin
+* Brady Inglis Student ID: 100926284
+* Nick Coffin Student ID: 100555045
+* Date of Completion: Feb 22
+*
+* All css rules in regards to news.html will be added here.
+*/
+
+
+/* Search Bar */
+.news-searchbar {
+    background-color: #EEEEEE;
+    border: 2px solid #DDDDDD;
+    border-radius: 20px;
+    width: 75%;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px 0 #DDDDDDAA;
+}
+.search-input {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+}
+.search-input:focus {
+    outline: none;
+}
+
+
+/* News results */
+.news-container {
+    background-color: #DDDDDD;
+    border-radius: 15px;
+    min-height: 300px;
+    padding: 20px;
+}
+.news-card {
+    background-color: #EEEEEE;
+    border: 2px solid #CCCCCC;
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
+    margin-bottom: 10px;
+}
+.news-card h4, .news-card h5, .news-card p {
+    padding: 0;
+    margin: 2px;
+}
+.news-card:hover {
+    box-shadow: 0 4px 8px 0 #BBBBBBAA;
+    transform: translateY(-2px);
+}

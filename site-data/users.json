@@ -1,0 +1,24 @@
+{
+    "users" :
+            [
+              {
+                "DisplayName" : "NickCoffin",
+                "EmailAddress" : "nick@coffin.com",
+                "Username" : "ncoffin",
+                "Password" : "abc123"
+              },
+              {
+                "DisplayName" : "Brady Inglis",
+                "EmailAddress" : "brady@inglis.com",
+                "Username" : "binglis",
+                "Password" : "123abc"
+              },
+              {
+                "DisplayName" : "admin",
+                "EmailAddress" : "user@admin.com",
+                "Username" : "admin",
+                "Password" : "password"
+              }
+            ]
+  
+  }

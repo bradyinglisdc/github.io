@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="content/app.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body>
+
+<header></header>
+
+<!-- Main content -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripting Section -->
+<main class="container">
+    <div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+        <h1>Gallery</h1>
+        <p>Take a peak at some of our greatest moments!</p>
+    </div>
+    <div class="border-2 bg-dark">
+        <!-- Gallery -->
+        <div class="container mt-4">
+            <div class="row g-3" id="gallery">
+                <!-- Images to be loaded here -->
+            </div>
+        </div>
+
+        <!-- Bootstrap Modal (for lightbox) -->
+        <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <img id="lightboxImage" class="img-fluid" src="" alt="Gallery Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top button -->
+    <button id="btnScrollToTop" class="btn-scroll-to-top">
+        Scroll to Top
+    </button>
+</main>
+<script type="module" src="scripts/app.js"></script>
+<script src="scripts/opportunity.js"></script>
+</body>
+</html>

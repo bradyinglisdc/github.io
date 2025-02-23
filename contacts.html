@@ -1,0 +1,115 @@
+<!--
+* Authors: Brady Inglis, Nick Coffin
+* Brady Inglis Student ID: 100926284
+* Nick Coffin Student ID: 100555045
+ -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="content/app.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="scripts/feedback.js"></script>
+</head>
+<body>
+
+<!-- Feedback Confirmation Modal -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="feedbackModalLabel">Feedback Submitted</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p><strong>Name:</strong> <span id="modalName"></span></p>
+              <p><strong>Feedback:</strong> <span id="modalMessage"></span></p>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<header>
+
+</header>
+
+<main class="container">
+    <div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+        <h1>Contact Us</h1>
+    <form id="contactForm" class="col-lg-6 col-md-10 col-sm-12 mb-4">
+        <div class="input-group mb-3">
+          <span class="input-group-text">Full Name</span>
+          <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full Name" required>
+        </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">Email Address</span>
+          <input id="emailAddress" name="emailAddress" type="email" class="form-control" aria-describedby="Email Address" aria-label="Email Address" required>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Subject</span>
+            <input id="subject" name="subject" type="text" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number" required>
+          </div>
+
+        <div class="input-group mb-3">
+          <span class="input-group-text">Message</span>
+          <input id="message" name="message" class="form-control" aria-describedby="Message Area" aria-label="Message Area">
+        </div>
+
+        <button id="sendButton" name="sendButton" type="submit" class="btn btn-primary">Submit</button>
+        <button id="cancelButton" name="cancelButton" type="reset" class="btn btn-warning">Cancel</button>
+      </form>
+
+      <h2 class="mt-5">Feedback Form</h2>
+<form id="feedbackForm" class="col-lg-6 col-md-10 col-sm-12 mb-4">
+    <div class="input-group mb-3">
+        <span class="input-group-text">Your Name</span>
+        <input id="feedbackName" name="feedbackName" type="text" class="form-control" required>
+    </div>
+
+    <div class="input-group mb-3">
+        <span class="input-group-text">Feedback</span>
+        <textarea id="feedbackMessage" name="feedbackMessage" class="form-control" required></textarea>
+    </div>
+
+    <button id="submitFeedback" type="submit" class="btn btn-primary">Submit Feedback</button>
+</form>
+
+    </div>
+    
+    <!-- Scroll to Top button -->
+    <button id="btnScrollToTop" class="btn-scroll-to-top">
+        Scroll to Top
+    </button>
+</main>
+<footer class="sticky-footer">
+    <div class="container text-center">
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy </a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+        </nav>
+        <p>&copy; 2025 INFT2202. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Scripting Section -->
+<!-- Scripting Section -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/feedback.js"></script>
+<script type="module" src="scripts/app.js"></script>
+
+</body>
+</html>

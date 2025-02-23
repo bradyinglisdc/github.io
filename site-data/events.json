@@ -1,0 +1,74 @@
+{
+  "events": [
+    {
+      "title": "Charity Run",
+      "category": "Fundraiser",
+      "locationDisplay": "Hampton Park",
+      "city": "Hampton",
+      "date": "March 15, 2025"
+    },
+    {
+      "title": "Coding Workshop",
+      "category": "Workshop",
+      "locationDisplay": "Durham College",
+      "city": "Oshawa",
+      "date": "April 10, 2025"
+    },
+    {
+      "title": "Beach Cleanup",
+      "category": "Cleanup",
+      "locationDisplay": "Waterfront Trail, Oshawa",
+      "city": "Oshawa",
+      "date": "May 5, 2025"
+    },
+    {
+      "title": "Food Truck Festival",
+      "category": "Festival",
+      "locationDisplay": "Lakeview Park, Oshawa",
+      "city": "Oshawa",
+      "date": "June 1, 2025"
+    },
+    {
+      "title": "Farmers' Market Opening Day",
+      "category": "Market",
+      "locationDisplay": "Pickering Town Centre",
+      "city": "Pickering",
+      "date": "May 15, 2025"
+    },
+    {
+      "title": "Outdoor Movie Night",
+      "category": "Entertainment",
+      "locationDisplay": "Rotary Park, Ajax",
+      "city": "Ajax",
+      "date": "July 20, 2025"
+    },
+    {
+      "title": "Music in the Park",
+      "category": "Concert",
+      "locationDisplay": "Memorial Park, Whitby",
+      "city": "Whitby",
+      "date": "August 5, 2025"
+    },
+    {
+      "title": "Cultural Heritage Festival",
+      "category": "Festival",
+      "locationDisplay": "Harmony Creek Community Centre, Oshawa",
+      "city": "Oshawa",
+      "date": "September 12, 2025"
+    },
+    {
+      "title": "Halloween Haunt",
+      "category": "Seasonal",
+      "locationDisplay": "Greenwood Conservation Area, Ajax",
+      "city": "Ajax",
+      "date": "October 25, 2025"
+    },
+    {
+      "title": "Christmas Parade",
+      "category": "Parade",
+      "locationDisplay": "Downtown Bowmanville",
+      "city": "Bowmanville",
+      "date": "December 7, 2025"
+    }
+  ]
+}
