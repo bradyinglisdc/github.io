@@ -77,7 +77,7 @@ const router = new Router(routes);
         loginButton.addEventListener("click", async (e) => {
             e.preventDefault();
 
-            const username = document.getElementById("username").value.trim();
+            const username = document.getElementById("userName").value.trim();
             const password = document.getElementById("password").value.trim();
 
             try {
