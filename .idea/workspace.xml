@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="News API Changed: Previous API allowed for calls only for development purposes.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="ICE 3 Push">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/QuinnyCloud/client",
+    "last_opened_file_path": "D:/DurhamCollege/2025-SemesterFour/CSS/Pages/INFT-2202/github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +72,7 @@
       <workItem from="1740513942082" duration="599000" />
       <workItem from="1740519601247" duration="1000" />
       <workItem from="1741225625704" duration="69000" />
+      <workItem from="1742071846527" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="News API Changed: Previous API allowed for calls only for development purposes.">
       <option name="closed" value="true" />
@@ -81,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740348828946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ICE 3 Push">
+      <option name="closed" value="true" />
+      <created>1742071980437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742071980437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ICE 3 Push">
+      <option name="closed" value="true" />
+      <created>1742072247046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742072247046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="News API Changed: Previous API allowed for calls only for development purposes." />
-    <option name="LAST_COMMIT_MESSAGE" value="News API Changed: Previous API allowed for calls only for development purposes." />
+    <MESSAGE value="ICE 3 Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="ICE 3 Push" />
   </component>
 </project>
