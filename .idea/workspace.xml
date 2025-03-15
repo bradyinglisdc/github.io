@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/content/news/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/news/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/opportunities.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/opportunities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/pageSetup.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/pageSetup.js" afterDir="false" />
+    <list default="true" id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="News API Changed: Previous API allowed for calls only for development purposes.">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,23 +14,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bradyinglisdc"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bradyinglisdc&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bradyinglisdc/INFT2202-Assignments",
-    "accountId": "75b194bd-84e9-42a5-a6bc-fdb57cc5f950"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bradyinglisdc/github.io.git&quot;,
+    &quot;accountId&quot;: &quot;75b194bd-84e9-42a5-a6bc-fdb57cc5f950&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2tSZKf72RR4deu3OY57S9Q0BGsg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,12 +41,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/DurhamCollege/2025-SemesterFour/CSS/Assignments/Assignment2",
+    "last_opened_file_path": "D:/Projects/QuinnyCloud/client",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,10 +67,28 @@
       <option name="presentableId" value="Default" />
       <updated>1740347373339</updated>
       <workItem from="1740347374442" duration="1229000" />
+      <workItem from="1740348735807" duration="159000" />
+      <workItem from="1740352892032" duration="1704000" />
+      <workItem from="1740513942082" duration="599000" />
+      <workItem from="1740519601247" duration="1000" />
+      <workItem from="1741225625704" duration="69000" />
     </task>
+    <task id="LOCAL-00001" summary="News API Changed: Previous API allowed for calls only for development purposes.">
+      <option name="closed" value="true" />
+      <created>1740348828946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740348828946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="News API Changed: Previous API allowed for calls only for development purposes." />
+    <option name="LAST_COMMIT_MESSAGE" value="News API Changed: Previous API allowed for calls only for development purposes." />
   </component>
 </project>

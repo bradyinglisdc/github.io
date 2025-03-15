@@ -1,72 +1,54 @@
-/*
-* Authors: Brady Inglis, Nick Coffin
-* Brady Inglis Student ID: 100926284
-* Nick Coffin Student ID: 100555045
-* Date of Completion: Feb 22, 2025
-*/
-/**
- * Function to highlight the active nav link.
- */
-function updateActiveNavLink() {
-    console.log("[INFO] update Active Nav Link");
-
-    const currentPage = document.title.trim();
-    const navLinks = document.querySelectorAll('nav a')
-
-    navLinks.forEach(link => {
-        if(link.textContent.trim() === currentPage) {
-            link.classList.add('active');
-        } else {
-            link.classList.remove('active');
-        }
-    });
-}
+"use strict";
 
 /**
- * Function to load the header dynamically.
+ * Loads the navbar into the current page
+ * @returns {Promise<void>}
  */
 export async function loadHeader() {
-    console.log("Loading Header...");
-    
-    try {
-        const response = await fetch("header.html");
-        if (!response.ok) {
-            throw new Error("Failed to fetch header.");
-        }
-        const data = await response.text();
-        document.querySelector("header").innerHTML = data;
-        updateActiveNavLink();
+    console.log("loadHeader called...");
 
-        // Ensure navbar modifications happen after the header loads - await this so this thread does not continue until completion
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                import("./pageSetup.js").then(({ PageSetup }) => {
-                    PageSetup.setNavBar();
-
-                    // Reinitialize Bootstrap dropdowns manually
-                    if (window.bootstrap) {
-                        document.querySelectorAll('.dropdown-toggle').forEach(dropdown => {
-                            new bootstrap.Dropdown(dropdown);
-                            resolve();
-                        });
-                    }
-
-                    else {
-                        reject();
-                    }
-                });
-            }, 0);
-        });
-    } catch (error) {
-        console.error("[ERROR] Unable to load Header:", error);
-    }
+    return fetch("./views/components/header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.querySelector("header").innerHTML = data;
+            updateActiveNavLink();
+            checkLogin();
+        })
+        .catch (error => console.error("[ERROR] Error loading header"));
 }
 
 /**
- * Function to check if the user is logged in and updates the login buton to logout.
- * @returns 
+ * Changes header nav link to display current page as active
  */
-export function checkLogin(){
+export function updateActiveNavLink() {
+    console.log("updateActiveNavLink called...");
+
+    // Get the current path
+    const currentPath = location.hash.slice(1) || "/";
+    const navLinks = document.querySelectorAll("nav a");
+
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href").replace("#", "");
+        if (currentPath === linkPath) {
+            link.classList.add("active");
+        }
+
+        else {
+            link.classList.remove("active");
+        }
+    })
+}
+
+function handleLogout(e) {
+    e.preventDefault();
+    sessionStorage.removeItem("user");
+
+    loadHeader().then(() => {
+        location.hash = "/";
+    })
+}
+
+function checkLogin() {
     console.log("checking is user logged in...");
 
     const loginNav = document.getElementById("login");
@@ -79,12 +61,14 @@ export function checkLogin(){
     const userSession = sessionStorage.getItem("user");
 
     if (userSession) {
-        loginNav.innerHTML = `Logout`
+        loginNav.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> Logout`
         loginNav.href = "#"
-        loginNav.addEventListener("click", (e) => {
-            e.preventDefault();
-            sessionStorage.removeItem("user");
-            location.href = "index.html";
-        });
+        loginNav.removeEventListener("click", handleLogout);
+        loginNav.addEventListener("click", handleLogout);
+    } else {
+        loginNav.innerHTML = `<i class="fas fa-sign-in-alt"></i> Login`
+        loginNav.removeEventListener("click", handleLogout);
+        loginNav.addEventListener("click", () => location.hash = "/login");
     }
 }
+
