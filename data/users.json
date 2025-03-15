@@ -4,31 +4,31 @@
     {
       "DisplayName": "Bob",
       "EmailAddress": "bob@example.com",
-      "UserName": "bobby",
+      "Username": "bobby",
       "Password": "password1"
     },
     {
       "DisplayName": "Hank",
       "EmailAddress": "hank@example.com",
-      "UserName": "Hank12",
+      "Username": "Hank12",
       "Password": "password2"
     },
     {
       "DisplayName": "Tom",
       "EmailAddress": "tom@example.com",
-      "UserName": "tommy",
+      "Username": "tommy",
       "Password": "password3"
     },
     {
       "DisplayName": "Ronald",
       "EmailAddress": "ronald@example.com",
-      "UserName": "ronny",
+      "Username": "ronny",
       "Password": "password4"
     },
     {
       "DisplayName": "admin",
       "EmailAddress": "admin@example.com",
-      "UserName": "admin",
+      "Username": "admin",
       "Password": "password"
     }
   ]
