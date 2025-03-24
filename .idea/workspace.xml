@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="ICE 3 Push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6827818a-597b-4f59-9682-693f3a0ae206" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/donate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/opportunities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/privacy-policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terms-of-service.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,24 +20,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;bradyinglisdc&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NickCoffin123"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/bradyinglisdc/github.io.git&quot;,
-    &quot;accountId&quot;: &quot;75b194bd-84e9-42a5-a6bc-fdb57cc5f950&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bradyinglisdc/INFT2202-Assignments.git",
+    "accountId": "5f0e6856-dc53-46ea-9d10-7d32be964ebf"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2tSZKf72RR4deu3OY57S9Q0BGsg" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2ud3oTSbW3c2oLHeWyX4eYRi6Um" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,72 +47,58 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/DurhamCollege/2025-SemesterFour/CSS/Pages/INFT-2202/github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/nickc/Desktop/CSS-Group/INFT2202-Assignments/Assignment3",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nickc\Desktop\CSS-Group\INFT2202-Assignments\Assignment3\views" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5891c822-8e0c-4381-a3a6-5215d80b372b" name="Changes" comment="" />
-      <created>1740347373339</created>
+      <changelist id="6827818a-597b-4f59-9682-693f3a0ae206" name="Changes" comment="" />
+      <created>1742564799029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740347373339</updated>
-      <workItem from="1740347374442" duration="1229000" />
-      <workItem from="1740348735807" duration="159000" />
-      <workItem from="1740352892032" duration="1704000" />
-      <workItem from="1740513942082" duration="599000" />
-      <workItem from="1740519601247" duration="1000" />
-      <workItem from="1741225625704" duration="69000" />
-      <workItem from="1742071846527" duration="701000" />
+      <updated>1742564799029</updated>
+      <workItem from="1742564801114" duration="31000" />
     </task>
-    <task id="LOCAL-00001" summary="News API Changed: Previous API allowed for calls only for development purposes.">
-      <option name="closed" value="true" />
-      <created>1740348828946</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740348828946</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ICE 3 Push">
-      <option name="closed" value="true" />
-      <created>1742071980437</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1742071980437</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ICE 3 Push">
-      <option name="closed" value="true" />
-      <created>1742072247046</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1742072247046</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="News API Changed: Previous API allowed for calls only for development purposes." />
-    <MESSAGE value="ICE 3 Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="ICE 3 Push" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/algorithms.js" />
+        <option value="$PROJECT_DIR$/scripts/algorithms.js.map" />
+        <option value="$PROJECT_DIR$/scripts/news.js" />
+        <option value="$PROJECT_DIR$/scripts/news.js.map" />
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/scripts/app.js.map" />
+        <option value="$PROJECT_DIR$/scripts/feedback.js" />
+        <option value="$PROJECT_DIR$/scripts/feedback.js.map" />
+        <option value="$PROJECT_DIR$/scripts/header.js" />
+        <option value="$PROJECT_DIR$/scripts/header.js.map" />
+        <option value="$PROJECT_DIR$/scripts/opportunity.js" />
+        <option value="$PROJECT_DIR$/scripts/opportunity.js.map" />
+        <option value="$PROJECT_DIR$/scripts/opportunities.js" />
+        <option value="$PROJECT_DIR$/scripts/opportunities.js.map" />
+        <option value="$PROJECT_DIR$/scripts/events.js" />
+        <option value="$PROJECT_DIR$/scripts/events.js.map" />
+        <option value="$PROJECT_DIR$/scripts/pageSetup.js" />
+        <option value="$PROJECT_DIR$/scripts/pageSetup.js.map" />
+      </list>
+    </option>
   </component>
 </project>

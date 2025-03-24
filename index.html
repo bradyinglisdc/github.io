@@ -1,27 +1,65 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+<!--
+* Authors: Brady Inglis, Nick Coffin
+* Brady Inglis Student ID: 100926284
+* Nick Coffin Student ID: 100555045
+ -->
 
-    <!-- CSS Section -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <link rel="stylesheet" href="content/app.css">
-</head>
-<body>
+ <!doctype html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Loading...</title>
 
-<header></header>
+     <!-- CSS Section -->
+     <link rel="stylesheet" href="content/app.css">
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+ </head>
+ <body>
 
-<main class="container"></main>
+ <!-- Feedback Confirmation Modal -->
+<!--
+ <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h5 class="modal-title" id="feedbackModalLabel">Feedback Submitted</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+               <p><strong>Name:</strong> <span id="modalName"></span></p>
+               <p><strong>Feedback:</strong> <span id="modalMessage"></span></p>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+       </div>
+   </div>
+ </div>
+-->
 
-<footer></footer>
 
-<!-- Script Section -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="module" src="scripts/app.js"></script>
-</body>
-</html>
+
+
+ <header></header>
+
+ <!-- Scroll to Top button -->
+ <button id="btnScrollToTop" class="btn-scroll-to-top">
+     Scroll to Top
+ </button>
+
+
+ <main class="container"></main>
+
+ <footer class="sticky-footer"></footer>
+
+ <!-- Scripting Section -->
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script type="module" src="scripts/app.js"></script>
+
+ </body>
+ </html>

@@ -1,7 +1,52 @@
-<h1> <i class="fa-solid fa-cloud"></i> Welcome to INFT 2202</h1>
-<button id="AboutUsButton" class="btn btn-primary">About us</button>
-
-<div id="weather" class="mt-5">
-    <h3>Weather Forecast</h3>
-    <p id="weatherData">Fetching weather data...</p>
+<div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+    <!-- Welcome message -->
+    <h1>Welcome to Volunteer Connect!</h1>
+    <div class="ps-3 pe-3 generic-message-container">
+        <p class="generic-message">Volunteer Connect is an organization dedicated to connecting individuals with
+            volunteering opportunities
+            in their community. Use our website to search out opportunities,
+            register as a volunteer, and view any upcoming events. We believe in the spirit of collaboration,
+            engagement, and quality service!</p>
+    </div>
+    <!-- Featured activities slideshow -->
+    <div id="featuredActivitiesCarousel" class="d-flex carousel slide w-100" data-bs-ride="carousel">
+        <a href="#featuredActivitiesCarousel" role="button" data-bs-slide="prev"
+           class="d-flex justify-content-center align-items-center">
+            <div class="generic-icon">
+                <img src="./icons/arrow-left.png" alt="Previous Slide Arrow"/>
+            </div>
+        </a>
+        <div class="d-block carousel-inner rounded-5">
+            <div class="carousel-item active">
+                <img src="./images/community-cleanup-event.jpg" alt="Community clean up event in Hampton, April 2024">
+                <div class="carousel-caption d-none d-md-block bg-opacity-75 bg-white rounded-5">
+                    <h5 class="text-black">Park cleanup event, April 2024</h5>
+                    <p class="text-black">We had record turnouts for this event, with over 200 participants!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/hackathon-event.jpg" alt="Ethical hacking event, December 2024">
+                <div class="carousel-caption d-none d-md-block bg-opacity-75 bg-white rounded-5">
+                    <h5 class="text-black">Ethical hacking-hackathon event, December 2024</h5>
+                    <p class="text-black">We gave out a total of $20,000 to our top 5 winners!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/charity-run-event.jpg" alt="Charity run, June 2023">
+                <div class="carousel-caption d-none d-md-block bg-opacity-75 bg-white rounded-5">
+                    <h5 class="text-black">Charity run, June 2023</h5>
+                    <p class="text-black">Over $50,000 made in donations!</p>
+                </div>
+            </div>
+        </div>
+        <a href="#featuredActivitiesCarousel" role="button" data-bs-slide="next"
+           class="d-flex justify-content-center align-items-center">
+            <div class="generic-icon">
+                <img src="./icons/arrow-right.png" alt="Previous Slide Arrow"/>
+            </div>
+        </a>
+    </div>
+    <!-- Get involved prompt -->
+    <button id="getInvolvedButton" class="btn-prompt m-3">Get Involved!</button>
 </div>
+

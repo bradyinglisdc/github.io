@@ -1,15 +1,14 @@
 {
-  "name": "ICE",
+  "name": "Assignment3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "private": true,
+  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.8",
+    "jquery": "^3.7.1",
+    "typescript": "^5.8.2"
   }
 }
