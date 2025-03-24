@@ -1,0 +1,52 @@
+    <div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+        <h1>Opportunities</h1>
+    </div>
+    <div id="opportunityCards" class="opportunity-cards">
+        <!-- Opportunities dynamically added in js -->
+    </div>
+
+    <!-- Signup form -->
+    <div class="modal fade" id="signUpForm" tabindex="-1" aria-labelledby="signUpForm" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Opportunity Sign Up</h1>
+                    <button id="exitSignUpFormButton" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Full Name</span>
+                            <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full Name" required>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Email Address</span>
+                            <input id="emailAddress" name="emailAddress" type="email" class="form-control" aria-describedby="Email Address" aria-label="Email Address" required>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Preferred Role</span>
+                            <input id="preferredRole" name="subject" type="text" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number" required>
+                        </div>
+                    </form>
+                    <div id="successMessage" hidden>
+                        <div class="d-flex justify-content-center align-items-center text-bg-success rounded-3 p-2">
+                            <p class="p-0 m-0">Sign up successful! Thank you for your participation.</p>
+                        </div>
+                    </div>
+                    <div id="errorMessage" hidden>
+                        <div class="d-flex justify-content-center align-items-center text-bg-danger rounded-3 p-2">
+                            <p class="p-0 m-0">Error signing up.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button id="closeSignUpFormButton" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="signUpButton" type="button" class="btn btn-primary">Sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+

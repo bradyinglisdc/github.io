@@ -1,0 +1,57 @@
+<!--
+* Authors: Brady Inglis, Nick Coffin
+* Brady Inglis Student ID: 100926284
+* Nick Coffin Student ID: 100555045
+ -->
+<div class="pt-5 d-flex flex-column justify-content-center align-items-center">
+            <h1>Events</h1>
+        </div>
+        <!-- Event Filters -->
+
+        <div class="mb-3">
+            <div class="d-flex align-items-center events-filter">
+                <label for="categoryFilter" class="form-label m-0">Category:</label>
+                <select id="categoryFilter" class="form-select bg-transparent border-0">
+                    <option value="All">All</option>
+                    <option value="Fundraiser">Fundraisers</option>
+                    <option value="Workshop">Workshops</option>
+                    <option value="Cleanup">Cleanups</option>
+                    <option value="Festival">Festivals</option>
+                    <option value="Market">Markets</option>
+                    <option value="Entertainment">Entertainments</option>
+                    <option value="Concert">Concerts</option>
+                    <option value="Festival">Festival</option>
+                    <option value="Seasonal">Seasonal</option>
+                </select>
+                <label for="locationFilter" class="form-label m-0">Location:</label>
+                <select id="locationFilter" class="form-select bg-transparent border-0">
+                    <option value="All">All</option>
+                    <option value="Hampton">Hampton</option>
+                    <option value="Oshawa">Oshawa</option>
+                    <option value="Pickering">Pickering</option>
+                    <option value="Ajax">Ajax</option>
+                    <option value="Bowmanville">Bowmanville</option>
+                </select>
+                <label for="dateFilter" class="form-label m-0">Month:</label>
+                <select id="dateFilter" class="form-select bg-transparent border-0">
+                    <option value="All">All</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Calendar Layout -->
+        <div id="eventsContainer" class="row row-cols-1 row-cols-md-3 g-4">
+        </div>
+

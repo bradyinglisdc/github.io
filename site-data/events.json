@@ -1,0 +1,104 @@
+{
+  "events": [
+    {
+      "createdBy": "ncoffin",
+      "title": "Charity Run",
+      "category": "Fundraiser",
+      "locationDisplay": "Hampton Park",
+      "city": "Hampton",
+      "date": "March 15, 2025",
+      "description": "Join us for a fun-filled day at Hampton Park to support local charities. Participants can run or walk in this community event to help raise funds for those in need.",
+      "time": "9:00 AM"
+    },
+    {
+      "createdBy": "ncoffin",
+      "title": "Coding Workshop",
+      "category": "Workshop",
+      "locationDisplay": "Durham College",
+      "city": "Oshawa",
+      "date": "April 10, 2025",
+      "description": "This workshop at Durham College will teach beginners how to code with Python. Ideal for anyone looking to start their programming journey!",
+      "time": "1:00 PM"
+    },
+    {
+      "createdBy": "ncoffin",
+      "title": "Beach Cleanup",
+      "category": "Cleanup",
+      "locationDisplay": "Waterfront Trail, Oshawa",
+      "city": "Oshawa",
+      "date": "May 5, 2025",
+      "description": "Help keep our beaches beautiful! Volunteers needed for a beach cleanup along the Waterfront Trail. Supplies provided.",
+      "time": "8:00 AM"
+    },
+    {
+      "createdBy": "binglis",
+      "title": "Food Truck Festival",
+      "category": "Festival",
+      "locationDisplay": "Lakeview Park, Oshawa",
+      "city": "Oshawa",
+      "date": "June 1, 2025",
+      "description": "Taste the best local eats on wheels! Join us at Lakeview Park for a day of great food, live music, and family fun.",
+      "time": "11:00 AM"
+    },
+    {
+      "createdBy": "binglis",
+      "title": "Farmers' Market Opening Day",
+      "category": "Market",
+      "locationDisplay": "Pickering Town Centre",
+      "city": "Pickering",
+      "date": "May 15, 2025",
+      "description": "Celebrate the opening day of our local Farmers' Market. Fresh produce, homemade goods, and more available at Pickering Town Centre.",
+      "time": "9:00 AM"
+    },
+    {
+      "createdBy": "binglis",
+      "title": "Outdoor Movie Night",
+      "category": "Entertainment",
+      "locationDisplay": "Rotary Park, Ajax",
+      "city": "Ajax",
+      "date": "July 20, 2025",
+      "description": "Enjoy a family-friendly movie under the stars at Rotary Park. Bring a blanket and some snacks for a relaxing evening.",
+      "time": "8:00 PM"
+    },
+    {
+      "createdBy": "binglis",
+      "title": "Music in the Park",
+      "category": "Concert",
+      "locationDisplay": "Memorial Park, Whitby",
+      "city": "Whitby",
+      "date": "August 5, 2025",
+      "description": "Experience live music performances at Memorial Park with local bands and artists. Free admission, all are welcome!",
+      "time": "4:00 PM"
+    },
+    {
+      "createdBy": "admin",
+      "title": "Cultural Heritage Festival",
+      "category": "Festival",
+      "locationDisplay": "Harmony Creek Community Centre, Oshawa",
+      "city": "Oshawa",
+      "date": "September 12, 2025",
+      "description": "Join us for a celebration of diversity and culture at the Harmony Creek Community Centre. Enjoy cultural performances, crafts, and food from around the world.",
+      "time": "10:00 AM"
+    },
+    {
+      "createdBy": "admin",
+      "title": "Halloween Haunt",
+      "category": "Seasonal",
+      "locationDisplay": "Greenwood Conservation Area, Ajax",
+      "city": "Ajax",
+      "date": "October 25, 2025",
+      "description": "Get ready for a spooky night in the woods at our Halloween Haunt. Scary attractions, costume contests, and candy for all ages!",
+      "time": "6:00 PM"
+    },
+    {
+      "createdBy": "admin",
+      "title": "Christmas Parade",
+      "category": "Parade",
+      "locationDisplay": "Downtown Bowmanville",
+      "city": "Bowmanville",
+      "date": "December 7, 2025",
+      "description": "Kick off the holiday season with the annual Christmas Parade in downtown Bowmanville. Floats, bands, and Santa Claus will be there!",
+      "time": "5:00 PM"
+    }
+  ]
+}

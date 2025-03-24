@@ -1,0 +1,27 @@
+{
+  "siteData": {
+    "labels": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "datasets": [
+      {
+        "label": "Visits",
+        "data": [123, 159, 134, 187, 223, 165, 156]
+      },
+      {
+        "label": "Users",
+        "data": [110, 142, 130, 178, 210, 150, 144]
+      },
+      {
+        "label": "Opportunities Applied For",
+        "data": [3, 5, 2, 6, 4, 3, 2]
+      },
+      {
+        "label": "Events Viewed",
+        "data": [20, 30, 25, 35, 40, 32, 28]
+      },
+      {
+        "label": "Events Added",
+        "data": [5, 7, 6, 8, 9, 7, 6]
+      }
+    ]
+  }
+}

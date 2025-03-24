@@ -1,0 +1,71 @@
+{
+  "opportunities":
+  [
+    {
+      "opportunityID": 0,
+      "opportunity": {
+        "title": "Food bank sorting and distribution",
+        "organization": "Region of Durham",
+        "date": "January 31, 2025",
+        "time": "6:00 AM - 3:00 PM",
+        "description":
+        "Join us in making a difference in the Durham Region by volunteering at our Food Bank Sorting and Distribution event. Volunteers will assist in sorting, packaging, and distributing food items to individuals and families in need. Your efforts will help ensure that essential food supplies reach those facing food insecurity in our community."
+      }
+  },
+    {
+      "opportunityID": 1,
+      "opportunity": {
+        "title": "Volunteer builder",
+        "organization": "Habitat for Humanity",
+        "date": "February 15, 2025",
+        "time": "8:00 AM - 4:00 PM",
+        "description":
+        "Help build homes for families in need by volunteering with Habitat for Humanity. Volunteers will assist in various construction tasks such as painting, framing, and landscaping. No prior experience is necessary—just a willingness to make a lasting impact in the community."
+      }
+    },
+    {
+      "opportunityID": 2,
+      "opportunity": {
+        "title": "Animal caretaker",
+        "organization": "Durham Animal Shelter",
+        "date": "March 10, 2025",
+        "time": "10:00 AM - 2:00 PM",
+        "description":
+        "Join us at the Durham Animal Shelter to help care for homeless pets. Volunteers will assist with feeding, cleaning, and socializing animals, as well as supporting adoption events to find them loving homes."
+      }
+    },
+    {
+      "opportunityID": 3,
+      "opportunity": {
+        "title": "Environmental cleaner",
+        "organization": "Community Cleanup Initiative",
+        "date": "April 5, 2025",
+        "time": "9:00 AM - 12:00 PM",
+        "description":
+        "Make a positive impact on your local environment by participating in our community cleanup day. Volunteers will work together to remove litter from parks, trails, and streets, helping to create a cleaner and greener Durham Region."
+      }
+    },
+    {
+      "opportunityID": 4,
+      "opportunity": {
+        "title": "Senior Care Outreach",
+        "organization": "Community-ran opportunity",
+        "date": "May 20, 2025",
+        "time": "1:00 PM - 5:00 PM",
+        "description":
+        "Brighten the day of seniors in our community by volunteering at our Senior Care Outreach program. Volunteers will engage in friendly conversations, assist with light activities, and provide companionship to residents in local senior centers."
+      }
+    },
+    {
+      "opportunityID": 5,
+      "opportunity": {
+        "title": "Local Food Drive",
+        "organization": "Community-ran opportunity",
+        "date": "June 12, 2025",
+        "time": "11:00 AM - 3:00 PM",
+        "description":
+        "Support our fight against hunger by participating in the Local Food Drive. Volunteers will collect non-perishable food donations, sort items, and help distribute them to partner organizations serving those in need."
+      }
+    }
+  ]
+}
