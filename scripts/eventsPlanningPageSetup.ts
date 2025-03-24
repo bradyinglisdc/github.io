@@ -104,6 +104,7 @@ export class EventsPlanningPageSetup {
 
         // Display all events
         eventsContainer.innerHTML = ''
+        let eventCounter = 0;
         for (const event of eventsJSON.events) {
 
             // Ensure card is associated with user - skip this one if not
@@ -112,30 +113,63 @@ export class EventsPlanningPageSetup {
             }
             const deleteBtn: HTMLButtonElement = document.createElement("button");
             deleteBtn.type = "button";
-            deleteBtn.className = "btn btn-danger";
+            deleteBtn.className = "me-3 btn btn-danger";
             deleteBtn.innerHTML = `<i class="fa fa-trash"></i> Delete`;
             deleteBtn.id = `DEL|${event.title}`;
 
-            const submitBtn: HTMLButtonElement = document.createElement("button");
-            submitBtn.type = "button";
-            submitBtn.className = "btn btn-primary";
-            submitBtn.innerHTML = `<i class="fa fa-pencil"></i> Edit`;
-            submitBtn.id = `SUB|${event.title}`;
+            const editBtn: HTMLButtonElement = document.createElement("button");
+            editBtn.type = "button";
+            editBtn.className = "btn btn-primary";
+            editBtn.innerHTML = `<i class="fa fa-pencil"></i> Edit`;
+            editBtn.id = `SUB|${event.title}`;
 
-            eventsContainer.innerHTML +=
-                `<div class="col event-card" data-category='{"date":"${event.date.split(" ")[0]}","location":"${event.city}","category":"${event.category}"}'>
-                    <div class="card h-100">
-                        <div id=${event.title} class="card-body">
-                            <h5 class="card-title">${event.title}</h5>
-                            <p class="card-text mb-1"><strong>Date:</strong> ${event.date}</p>
-                            <p class="card-text mb-1"><strong>Time:</strong> ${event.time}</p>
-                            <p class="card-text mb-1"><strong>Location:</strong> ${event.locationDisplay}</p>
-                            <p class="card-text m1-"><strong>Category:</strong> ${event.category}</p>
-                            <p class="card-text m1-"><strong>Description:</strong></br> ${event.description}</p>
-                        </div>
+            const cardContainer = document.createElement("div");
+            cardContainer.className = "col event-card";
+            cardContainer.innerHTML +=
+                `
+                <div class="card h-100">
+                    <div id="event-${eventCounter}" class="card-body">
+                        <h5 class="card-title">${event.title}</h5>
+                        <p class="card-text mb-1"><strong>Date:</strong> ${event.date}</p>
+                        <p class="card-text mb-1"><strong>Time:</strong> ${event.time}</p>
+                        <p class="card-text mb-1"><strong>Location:</strong> ${event.locationDisplay}</p>
+                        <p class="card-text m1-"><strong>Category:</strong> ${event.category}</p>
+                        <p class="card-text m1-"><strong>Description:</strong></br> ${event.description}</p>
                     </div>
                 </div>
                 `
+            eventsContainer.appendChild(cardContainer);
+
+            // Setup buttons
+            const cardElement = eventsContainer.querySelector(`#event-${eventCounter}`);
+            if (!cardElement) {
+                console.error("Could not tie event to unique ID");
+                return;
+            }
+
+            deleteBtn.addEventListener("click", () => {
+                eventsJSON.events.splice(eventsJSON.events.findIndex((e: { eventNum: number }) => e.eventNum === eventCounter), 1);
+                sessionStorage.setItem("events", JSON.stringify(eventsJSON));
+                EventsPlanningPageSetup.displayEvents();
+            });
+
+            editBtn.addEventListener("click", () => {
+                location.hash = `#${location.hash.split("#")[1]}#event-planner`;
+
+                // Populate planner with event data
+                (document.getElementById("eventName") as HTMLInputElement).value = event.title;
+                (document.getElementById("eventCategory") as HTMLSelectElement).value = event.category;
+                (document.getElementById("eventLocation") as HTMLInputElement).value = event.locationDisplay;
+                (document.getElementById("eventCity") as HTMLInputElement).value = event.city;
+                (document.getElementById("eventDate") as HTMLInputElement).value = event.date;
+                (document.getElementById("eventDescription") as HTMLTextAreaElement).value = event.description;
+                (document.getElementById("eventTime") as HTMLInputElement).value = event.time;
+            });
+
+            cardElement.appendChild(deleteBtn);
+            cardElement.appendChild(editBtn);
+
+            eventCounter += 1;
         }
     }
 
